@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wakepi backup</title>
+<style>
+  body { font: 16px/1.6 Georgia, serif; max-width: 38rem; margin: 3rem auto; padding: 0 1rem; color: #222; background: #fafaf7; }
+  h1, h2 { font-family: system-ui, sans-serif; font-weight: 600; }
+  h2 { margin-top: 2.2rem; font-size: 1.15rem; }
+  code { background: #eee; padding: 0 .25em; border-radius: 3px; }
+  @media (prefers-color-scheme: dark) { body { background: #16171a; color: #ddd; } code { background: #2a2b30; } }
+</style>
+</head>
+<body>
+<h1>wakepi backup</h1>
+<p>wakepi backup is a private, single-user tool. It runs on a home server
+(a Raspberry Pi) belonging to its owner and copies that server's own nightly
+backup to the owner's Google Drive. It is not offered to anyone else.</p>
+
+<h2 id="privacy">Privacy policy</h2>
+<p><strong>What it accesses.</strong> The app requests only the
+<code>drive.file</code> permission. With it, Google lets the app see and change
+<em>only the files the app created itself</em>. It cannot see any other file
+in the Drive.</p>
+<p><strong>What it stores.</strong> Backup files of the owner's own home
+server, encrypted on the server before upload. Google only ever holds the
+encrypted data.</p>
+<p><strong>What it shares.</strong> Nothing. No data is sold, shared, sent to
+third parties or used for advertising or analytics.</p>
+<p><strong>How to revoke.</strong> Remove "wakepi backup" at
+<a href="https://myaccount.google.com/connections">myaccount.google.com &rarr; Security &rarr;
+Third-party connections</a>. The app then has no access at all.</p>
+<p><strong>Contact.</strong> The owner, via the GitHub account that hosts this page.</p>
+</body>
+</html>
